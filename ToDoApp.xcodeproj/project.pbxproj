@@ -14,6 +14,10 @@
 		B62EB3D81B837B2F00E314B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62EB3D71B837B2F00E314B3 /* Images.xcassets */; };
 		B62EB3DB1B837B2F00E314B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B62EB3D91B837B2F00E314B3 /* LaunchScreen.xib */; };
 		B62EB3E71B837B2F00E314B3 /* ToDoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62EB3E61B837B2F00E314B3 /* ToDoAppTests.m */; };
+		B62EB3F21B837CBB00E314B3 /* ToDoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B62EB3F11B837CBB00E314B3 /* ToDoTableViewCell.m */; };
+		B62EB3F51B837F1F00E314B3 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B62EB3F41B837F1F00E314B3 /* ToDoItem.m */; };
+		B62EB3F81B8389C200E314B3 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62EB3F71B8389C200E314B3 /* DetailsViewController.m */; };
+		B62EB3FB1B839AD600E314B3 /* UserTodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62EB3FA1B839AD600E314B3 /* UserTodoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		B62EB3E01B837B2F00E314B3 /* ToDoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62EB3E51B837B2F00E314B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B62EB3E61B837B2F00E314B3 /* ToDoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoAppTests.m; sourceTree = "<group>"; };
+		B62EB3F01B837CBB00E314B3 /* ToDoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoTableViewCell.h; sourceTree = "<group>"; };
+		B62EB3F11B837CBB00E314B3 /* ToDoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoTableViewCell.m; sourceTree = "<group>"; };
+		B62EB3F31B837F1F00E314B3 /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		B62EB3F41B837F1F00E314B3 /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
+		B62EB3F61B8389C200E314B3 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		B62EB3F71B8389C200E314B3 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		B62EB3F91B839AD600E314B3 /* UserTodoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTodoViewController.h; sourceTree = "<group>"; };
+		B62EB3FA1B839AD600E314B3 /* UserTodoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTodoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +97,15 @@
 				B62EB3CF1B837B2F00E314B3 /* AppDelegate.m */,
 				B62EB3D11B837B2F00E314B3 /* ViewController.h */,
 				B62EB3D21B837B2F00E314B3 /* ViewController.m */,
+				B62EB3F91B839AD600E314B3 /* UserTodoViewController.h */,
+				B62EB3FA1B839AD600E314B3 /* UserTodoViewController.m */,
+				B62EB3F31B837F1F00E314B3 /* ToDoItem.h */,
+				B62EB3F41B837F1F00E314B3 /* ToDoItem.m */,
 				B62EB3D41B837B2F00E314B3 /* Main.storyboard */,
+				B62EB3F61B8389C200E314B3 /* DetailsViewController.h */,
+				B62EB3F71B8389C200E314B3 /* DetailsViewController.m */,
+				B62EB3F01B837CBB00E314B3 /* ToDoTableViewCell.h */,
+				B62EB3F11B837CBB00E314B3 /* ToDoTableViewCell.m */,
 				B62EB3D71B837B2F00E314B3 /* Images.xcassets */,
 				B62EB3D91B837B2F00E314B3 /* LaunchScreen.xib */,
 				B62EB3CA1B837B2F00E314B3 /* Supporting Files */,
@@ -220,8 +240,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B62EB3D31B837B2F00E314B3 /* ViewController.m in Sources */,
+				B62EB3F51B837F1F00E314B3 /* ToDoItem.m in Sources */,
+				B62EB3FB1B839AD600E314B3 /* UserTodoViewController.m in Sources */,
 				B62EB3D01B837B2F00E314B3 /* AppDelegate.m in Sources */,
+				B62EB3F81B8389C200E314B3 /* DetailsViewController.m in Sources */,
 				B62EB3CD1B837B2F00E314B3 /* main.m in Sources */,
+				B62EB3F21B837CBB00E314B3 /* ToDoTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
